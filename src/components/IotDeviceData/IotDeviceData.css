@@ -1,0 +1,34 @@
+.mainWrapper {
+  width: 80%;
+  margin: auto;
+}
+.topValuesWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.topValues {
+  color: rgb(255, 255, 255);
+  padding: 20px 0px;
+}
+
+.topValuesWrapper :nth-child(1) {
+  background: rgb(98, 98, 255);
+  flex: 1;
+}
+
+.topValuesWrapper :nth-child(2) {
+  background: rgb(0 165 60);
+  flex: 1;
+}
+
+.topValuesWrapper :nth-child(3) {
+  background: rgb(255, 5, 5);
+  flex: 1;
+}
+
+.textFieldWrapper {
+  text-align: center;
+}
